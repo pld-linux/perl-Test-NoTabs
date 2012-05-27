@@ -13,9 +13,10 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Test/BOBTFISH/Test-NoTabs-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Test/Test-NoTabs-%{version}.tar.gz
 # Source0-md5:	2f084761009e61084ff9c3bb8facb732
 URL:		http://search.cpan.org/dist/Test-NoTabs/
+BuildRequires:	perl-ExtUtils-MakeMaker >= 6.42
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
