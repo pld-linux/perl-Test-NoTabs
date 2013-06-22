@@ -8,13 +8,13 @@
 Summary:	Test::NoTabs - check the presence of tabs in your project
 Summary(pl.UTF-8):	Test::NoTabs - sprawdzanie obecności tabulatorów w projekcie
 Name:		perl-Test-NoTabs
-Version:	1.1
+Version:	1.3
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Test/Test-NoTabs-%{version}.tar.gz
-# Source0-md5:	2f084761009e61084ff9c3bb8facb732
+# Source0-md5:	4b0800b977abf2576e873812046248fb
 URL:		http://search.cpan.org/dist/Test-NoTabs/
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.42
 BuildRequires:	perl-devel >= 1:5.8.0
