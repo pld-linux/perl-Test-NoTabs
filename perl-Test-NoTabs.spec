@@ -4,7 +4,6 @@
 #
 %define		pdir	Test
 %define		pnam	NoTabs
-%include	/usr/lib/rpm/macros.perl
 Summary:	Test::NoTabs - check the presence of tabs in your project
 Summary(pl.UTF-8):	Test::NoTabs - sprawdzanie obecności tabulatorów w projekcie
 Name:		perl-Test-NoTabs
