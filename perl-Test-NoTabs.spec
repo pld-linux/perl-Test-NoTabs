@@ -1,23 +1,24 @@
 #
 # Conditional build:
-%bcond_without	tests		# do not perform "make test"
+%bcond_without	tests	# unit tests
 #
 %define		pdir	Test
 %define		pnam	NoTabs
 Summary:	Test::NoTabs - check the presence of tabs in your project
 Summary(pl.UTF-8):	Test::NoTabs - sprawdzanie obecności tabulatorów w projekcie
 Name:		perl-Test-NoTabs
-Version:	1.3
+Version:	2.02
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Test/Test-NoTabs-%{version}.tar.gz
-# Source0-md5:	4b0800b977abf2576e873812046248fb
-URL:		http://search.cpan.org/dist/Test-NoTabs/
+# Source0-md5:	e3d583673b12762d85b843ba5b2b2201
+URL:		https://metacpan.org/release/Test-NoTabs
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.42
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
